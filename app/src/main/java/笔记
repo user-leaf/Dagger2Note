@@ -1,0 +1,12 @@
+点击make project进行编译的时候，在编译时期会扫描里面到底使用了哪些注解，通过注解生成了许多Java文件。
+apt
+Dagger2可以降低(程序中对象的)耦合度
+
+Student ---> Activity
+
+使用Dagger2的注解
+把自己的Activity交给dagger2这个框架。这个框架就能完成注入，注入就是把Activity拿过来和想要的对象建立一个赋值，这个赋值就是注入，（注入就是赋值）。
+Activity.this交给dagger2。内部完成注入
+
+在Activity中不用new了
+
